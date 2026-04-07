@@ -10,8 +10,9 @@ A high-performance, concurrent downloader for GenBank and RefSeq genome assembli
 - **Map file generation**: Creates `.map` files mapping sequence accessions to taxonomy IDs and metadata.
 - **Flexible filtering**: Accepts a pre-filtered `assembly_summary.txt` file (NCBI assembly summary format).
 - **Configurable sequence types**: Download genomic, RNA, CDS, etc. (default: `genomic`).
-- **Progress bars**: Real‑time progress indication with `indicatif`.
-- **Verbose logging**: Optional detailed output for debugging.
+- **Verbose mode with progress bars**: Detailed output with real-time progress bars for each download and overall progress (`-v` flag).
+- **Automatic chunked downloads for large genomes**: Files larger than 100 MB are automatically split into chunks and downloaded in parallel for faster transfer.
+- **MD5 checksum verification**: Downloads are verified against NCBI's `md5checksums.txt` to ensure data integrity.
 
 ## Installation
 
