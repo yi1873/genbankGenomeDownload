@@ -81,9 +81,9 @@ genbankGenomeDownload/
 │   ├── main.rs                   # CLI entry point, argument parsing
 │   ├── assembly.rs               # Assembly record parsing (assembly_summary.txt)
 │   └── downloader.rs             # Core download logic, threading, retry, map generation
-├── GCA/                          Example/downloaded genome directories (NCBI layout)
+├── GCA/                          # Example/downloaded genome directories (NCBI layout)
 └── test/
-    └── test.genbank              Test data
+    └── test.genbank              # Test data
 ```
 
 ### Key dependencies
