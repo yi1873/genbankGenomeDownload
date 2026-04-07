@@ -1,6 +1,6 @@
 [package]
 name = "genbankGenomeDownload"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
 
 [dependencies]
@@ -9,3 +9,4 @@ clap = { version = "4", features = ["derive"] }
 flate2 = "1"
 regex = "1"
 indicatif = "0.17"
+md5 = "0.7"
