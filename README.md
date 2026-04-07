@@ -34,7 +34,7 @@ The executable will be placed at `target/release/genbankGenomeDownload`.
 ### Basic command
 
 ```bash
-genbankGenomeDownload -i assembly_summary.txt -o ./
+genbankGenomeDownload -i assembly_summary.txt -o ./ -v
 ```
 
 ### All options
@@ -61,7 +61,7 @@ OPTIONS:
 3. Run the downloader:
 
 ```bash
-genbankGenomeDownload -i select_assembly_summary.txt -o ./  --threads 12 --fna genomic
+genbankGenomeDownload -i select_assembly_summary.txt -o ./  -v
 ```
 
 The tool will:
