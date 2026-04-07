@@ -82,7 +82,7 @@ genbankGenomeDownload/
 │   ├── assembly.rs               # Assembly record parsing (assembly_summary.txt)
 │   └── downloader.rs             # Core download logic, threading, retry, map generation
 ├── GCA/                          Example/downloaded genome directories (NCBI layout)
-├── test/
+└── test/
     └── test.genbank              Test data
 ```
 
